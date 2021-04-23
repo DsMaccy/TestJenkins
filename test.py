@@ -7,6 +7,8 @@ class TestBasicClass(unittest.TestCase):
         assert obj.doSomething() == "Hello World"
     def newTest(self):
         assert True
+    def failingTest(self):
+        assert False
 
 if __name__ == "__main__":
     unittest.main()
