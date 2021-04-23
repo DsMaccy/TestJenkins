@@ -1,5 +1,5 @@
-from .TestClass import TestClass
+from BasicClass import BasicClass
 
 if __name__ == "__main__":
-	obj = TestClass()
-	obj.doThing()
+	obj = BasicClass()
+	print(obj.doSomething())
